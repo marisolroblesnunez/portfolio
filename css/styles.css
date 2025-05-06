@@ -7,6 +7,36 @@
 --otroatardecer:#F28539;
 --clarorosa:rgb(240, 230, 230);;
 }
+body, html{
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.parallax{
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  /*para centrar el contenido*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.content{
+  background-color: rgba(255,255,255,0.605);
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.scroll{
+  height: 100vh;
+  background-color: aliceblue;
+  padding: 20px;
+  box-sizing: border-box;/*para que el pading entre dentro del div*/
+}
 html{
   scroll-behavior: smooth;
 }
@@ -55,7 +85,7 @@ img{
 .banner {
     /* width: 100vw;
     height: 100vh; */
-    background-image: url('../img/jjj.jpg');
+    /* background-image: url('../img/jjj.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0; 
